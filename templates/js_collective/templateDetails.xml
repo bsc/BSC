@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template" method="upgrade">
+	<name>js_collective</name>
+	<creationDate>December 2010</creationDate>
+	<author>Joomlashack</author>
+	<authorEmail>support@joomlashack.com</authorEmail>
+	<authorUrl>http://www.joomlashack.com</authorUrl>
+	<copyright>Copyright Joomlashack 2010. All rights reserved</copyright>
+	<license>Commercial license - single domain use only</license>
+	<version>1.0.1</version>
+    <description>
+			<![CDATA[
+				<p>Thanks for Purchasing JS Collective from <a href="http://www.joomlashack.com">Joomlashack</a></p>
+			]]> 	
+    </description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>functions.php</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>template.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>wright</folder>
+	</files>
+	<positions>
+		<position>sidebar1</position>
+		<position>sidebar2</position>
+		<position>menu</position>
+		<position>above-content</position>
+		<position>below-content</position>
+		<position>logo</position>
+		<position>topmenu</position>
+		<position>grid-top1</position>
+		<position>grid-top2</position>
+		<position>grid-top3</position>
+		<position>grid-bottom1</position>
+		<position>bottommenu</position>
+	</positions>
+	<params addpath="/templates/js_collective/wright/parameters/joomla_1.5">
+		<param name="helper" type="help" default="collective" label="Need Help?" />
+		<param name="rebrand" type="rebrand" default="no" label="Remove Branding" description="Our templates come with some branding. If you wish to remove it please purchase the rights to remove our branding by clicking on the link provided before disabling it here. Rebranding is handled as an honor system, we don't monitor or verify if you have purchased it, so please be respectful of our licensing terms. " />
+		<param name="style" type="styles" default="theme1" label="Style" description="Select which of the style variations you wish to use." />
+		<param name="mootools" type="radio" default="1" label="Enable Mootools" description="Turn off Joomla core Mootools.js">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="logo" type="logo" default="template" label="Logo Image" description="You can select your logo from the images directory after you upload the image." />
+		<param name="logowidth" type="grid" defualt="6" label="Logo Width" description="Select the column width for the logo, the rest of the space will be given to the newsflash module, or if you set it to full width the module will dissapear" />
+		<param name="body_font" type="typography" default="arial" label="Body Font" description="Select the default font face for the body" />
+		<param name="header_font" type="typography" default="arial" label="Heading Font" description="Select the default font face for the headers" />
+		<param name="columns" type="columns" default="sidebar1:3;main:6;sidebar2:3" sidebars="2" label="Columns" description="You can set the default widths and arrange the main columns. Any columns that are unused will just be hidden and the main column will be widened." />
+		<param name="doctype" type="list" default="html5" label="Doctype" description="">
+			<option value="html5">HTML5</option>
+			<option value="xhtml1transitional">XHTML 1 Transtional</option>
+			<option value="xhtml1strict">XHTML 1 Strict</option>
+		</param>
+		<param name="headerscript" type="textarea" default="" label="Header Script" description="If you need to add scripts to your header (like Google verification code, perhaps), you should enter them here." rows="5" cols="50" />
+		<param name="footerscript" type="textarea" default="" label="Footer Script" description="If you need to add scripts to your footer (like Google Analytics tracking code), you should enter them here." rows="5" cols="50" />
+		<param type="spacer" default="Custom Colors" />
+		<param name="customcolors" type="radio" default="no" label="Enable Custom Colors" description="Enable the color settings below">
+			<option value="no">DISABLE</option>
+			<option value="yes">ENABLE</option>
+		</param>
+		<param name="fontColor" type="colorpicker" default="#000000" label="Font Color" description="Type A Hexadecimal Color" />
+		<param name="headingColor" type="colorpicker" default="#333333" label="Heading Color" description="Type A Hexadecimal Color" />
+		<param name="linkColor" type="colorpicker" default="#3988CC" label="Link Color" description="Type A Hexadecimal Color" />
+		<param name="linkHoverColor" type="colorpicker" default="#3988CC" label="Link Hover Color" description="Type A Hexadecimal Color" />
+	</params>
+	<config>
+		<fields name="params" addfieldpath="/templates/jp_collective/wright/parameters/joomla_1.6">
+			<fieldset name="basic">
+				<field name="helper" type="help" default="collective" label="Need Help?" />
+				<field name="rebrand" type="rebrand" default="no" label="Remove Branding" description="Our templates come with some branding. If you wish to remove it please purchase the rights to remove our branding by clicking on the link provided before disabling it here. Rebranding is handled as an honor system, we don't monitor or verify if you have purchased it, so please be respectful of our licensing terms. " />
+				<field name="style" type="styles" default="theme1" label="Style" description="Select which of the style variations you wish to use." />
+				<field name="mootools" type="radio" default="1" label="Enable Mootools" description="Turn off Joomla core Mootools.js">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="logo" type="logo" default="template" label="Logo Image" description="You can select your logo from the images directory after you upload the image." />
+				<field name="logowidth" type="grid" defualt="4" label="Logo Width" description="Select the column width for the logo, the rest of the space will be given to the newsflash module, or if you set it to full width the module will dissapear" />
+				<field name="body_font" type="typography" default="arial" label="Body Font" description="Select the default font face for the body" />
+				<field name="header_font" type="typography" default="arial" label="Heading Font" description="Select the default font face for the headers" />
+				<field name="columns" type="columns" default="sidebar1:3;main:6;sidebar2:3" sidebars="2" label="Columns" description="You can set the default widths and arrange the main columns. Any columns that are unused will just be hidden and the main column will be widened." />
+				<field name="doctype" type="list" default="html5" label="Doctype" description="">
+					<option value="html5">HTML5</option>
+					<option value="xhtml1transitional">XHTML 1 Transtional</option>
+					<option value="xhtml1strict">XHTML 1 Strict</option>
+				</field>
+				<field name="headerscript" type="textarea" default="" label="Header Script" description="If you need to add scripts to your header (like Google verification code, perhaps), you should enter them here." rows="5" cols="50" />
+				<field name="footerscript" type="textarea" default="" label="Footer Script" description="If you need to add scripts to your footer (like Google Analytics tracking code), you should enter them here." rows="5" cols="50" />
+				<field type="spacer" default="Custom Colors" />
+				<field name="customcolors" type="radio" default="no" label="Enable Custom Colors" description="Enable the color settings below">
+					<option value="no">JYES</option>
+					<option value="yes">JNO</option>
+				</field>
+				<field name="fontColor" type="colorpicker" default="#000000" label="Font Color" description="Type A Hexadecimal Color" />
+				<field name="headingColor" type="colorpicker" default="#333333" label="Heading Color" description="Type A Hexadecimal Color" />
+				<field name="linkColor" type="colorpicker" default="#3988CC" label="Link Color" description="Type A Hexadecimal Color" />
+				<field name="linkHoverColor" type="colorpicker" default="#3988CC" label="Link Hover Color" description="Type A Hexadecimal Color" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+<name>Mycomponent</name>
+<author>Danny Buytaert</author>
+<creationDate></creationDate>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<!-- The version string is recorded in the components table -->
+<version>0.2 beta </version>
+<!-- The description is optional and defaults to the name -->
+<description>description of your component</description> 
+<!-- Install Database Section -->
+<install>
+<sql>
+<file driver="mysql" charset="utf8">install.mysql.sql</file>
+</sql>
+</install>
+
+<uninstall>
+<sql>
+<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+</sql>
+</uninstall>
+<!-- Custom Install Script to execute -->
+<installfile>install.mycomponent.php</installfile>
+    <!-- Custom Uninstall Script to execute -->
+<uninstallfile>uninstall.mycomponent.php</uninstallfile>
+  
+<!-- Site Main File Copy Section -->
+<files folder="component">
+<filename>mycomponent.php</filename>
+<filename>controller.php</filename>
+<filename>index.html</filename>
+<folder>models</folder>
+<folder>views</folder>
+</files>
+  <!-- Language -->
+  <languages folder="component/language/">
+  <language tag="en-GB">en-GB.com_mycomponent.ini</language>
+  </languages>
+
+<administration>
+<menu>Mycomponent</menu>
+<submenu>
+<menu link="option=com_mycomponent">Mycomponent</menu>
+<menu link="option=com_categories&amp;section=com_mycomponent">Categories</menu>
+</submenu>
+ <!-- Administration Main File Copy Section -->
+  <files>
+<filename>mycomponent.xml</filename>
+</files>
+<files folder="administrator">
+<filename>install.mysql.sql</filename>
+<filename>uninstall.mysql.sql</filename>
+<filename>mycomponent.php</filename>
+<filename>controller.php</filename>
+<filename>config.xml</filename>
+<folder>helpers</folder>
+<folder>models</folder>
+<folder>tables</folder>
+<folder>views</folder>
+<folder>elements</folder>
+</files>
+<!-- Language Administrator-->
+  <languages folder="administrator/language/">
+  <language tag="en-GB">en-GB.com_mycomponent.menu.ini</language>
+  <language tag="en-GB">en-GB.com_mycomponent.ini</language>
+  </languages>
+  </administration>
+</install>

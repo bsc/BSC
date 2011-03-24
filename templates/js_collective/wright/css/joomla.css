@@ -1,0 +1,726 @@
+/* 
+* Form Validation
+*/
+.invalid {
+border-color: #ff0000;
+}
+label.invalid {
+color: #ff0000;
+}
+/* 
+* Editor Buttons
+*/
+#editor-xtd-buttons {
+padding: 5px;
+}
+.button2-left, .button2-right, .button2-left div, .button2-right div {
+float: left;
+}
+.button2-left a, .button2-right a, .button2-left span, .button2-right span {
+display: block;
+height: 22px;
+float: left;
+line-height: 22px;
+font-size: 11px;
+color: #666;
+cursor: pointer;
+}
+.button2-left span, .button2-right span {
+cursor: default;
+color: #999;
+}
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span {
+padding: 0 6px;
+}
+.page span {
+color: #000;
+font-weight: bold;
+}
+.button2-left a:hover, .button2-right a:hover {
+text-decoration: none;
+color: #0B55C4;
+}
+.button2-left a, .button2-left span {
+padding: 0 24px 0 6px;
+}
+.button2-right a, .button2-right span {
+padding: 0 6px 0 24px;
+}
+.button2-left {
+background: url(../images/system/j_button2_left.png) no-repeat;
+float: left;
+margin-left: 5px;
+}
+.button2-right {
+background: url(../images/system/j_button2_right.png) 100% 0 no-repeat;
+float: left;
+margin-left: 5px;
+}
+.button2-left .image {
+background: url(../images/system/j_button2_image.png) 100% 0 no-repeat;
+}
+.button2-left .readmore {
+background: url(../images/system/j_button2_readmore.png) 100% 0 no-repeat;
+}
+.button2-left .pagebreak {
+background: url(../images/system/j_button2_pagebreak.png) 100% 0 no-repeat;
+}
+/* 
+* Tooltips
+*/
+div.tooltip {
+float: left;
+background: #ffc;
+border: 1px solid #D4D5AA;
+padding: 5px;
+max-width: 200px;
+}
+div.tooltip h4 {
+padding: 0;
+margin: 0;
+font-size: 95%;
+font-weight: bold;
+margin-top: -15px;
+padding-top: 15px;
+padding-bottom: 5px;
+background: url(../images/system/selector-arrow.png) no-repeat;
+}
+div.tooltip p {
+font-size: 90%;
+margin: 0;
+}
+/*
+* Caption fixes
+*/
+.img_caption.left {
+float: left;
+margin-right: 1em;
+}
+.img_caption.right {
+float: right;
+margin-left: 1em;
+}
+.img_caption.left p {
+clear: left;
+text-align: center;
+}
+.img_caption.right p {
+clear: right;
+text-align: center;
+}
+.img_caption.none {
+margin-left:auto;
+margin-right:auto;
+}
+.img_caption {
+text-align: center!important;
+}
+.caption.left {
+float: left;
+margin-right: 1em;
+}
+.caption.right {
+float: right;
+margin-left: 1em;
+}
+.caption.left p {
+clear: left;
+text-align: center;
+}
+.caption.right p {
+clear: right;
+text-align: center;
+}
+.caption.none {
+margin-left:auto;
+margin-right:auto;
+}
+.caption {
+text-align: center!important;
+}
+/* 
+* Calendar
+*/
+a img.calendar {
+width: 16px;
+height: 16px;
+margin-left: 3px;
+background: url(../images/system/calendar.png) no-repeat;
+cursor: pointer;
+vertical-align: middle;
+}
+/*
+* System Messages
+*/
+#system-message {
+margin:10px 0 20px 0;
+padding: 0 !important;
+background:#fff;
+border:solid 0px;
+}
+#system-message dt {
+font-weight: bold;
+}
+#system-message dd {
+margin: 0;
+font-weight: bold;
+text-indent: 0px;
+background:#fff;
+padding:0
+}
+#system-message dd ul {
+color: #93246F;
+margin-bottom: 10px;
+list-style: none;
+padding: 0px;
+border-top: 3px solid #93246F;
+border-bottom: 3px solid #93246F;
+}
+/* System Standard Messages */
+#system-message dt.message {
+display: none;
+}
+#system-message dd.message {
+}
+#system-message dd.message ul {
+background: #F2E3ED
+}
+/* System Error Messages */
+#system-message dt.error {
+display: none;
+}
+#system-message dd.error {
+}
+#system-message dd.error ul {
+color: #93246F;
+background: #F2E3ED;
+border-top: 3px solid #93246F;
+border-bottom: 3px solid #93246F;
+margin:0
+}
+/* System Notice Messages */
+#system-message dt.notice {
+display: none;
+}
+#system-message dd.notice {
+}
+#system-message dd.notice ul {
+color: #93246F;
+background: #F2E3ED;
+border-top: 3px solid #93246F;
+border-bottom: 3px solid #93246F;
+}
+/**
+* Styles included from Beez
+*
+* @version $Id: joomla.css 69 2011-01-21 18:32:22Z jeremy $
+* @author Design & Accessible Team ( Angie Radtke  )
+* @package Joomla
+* @subpackage Accessible-Template-Beez
+* @copyright Copyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+* @license GNU/GPL, see LICENSE.php
+* Joomla! is free software. This version may have been modified pursuant to the
+* GNU General Public License, and as distributed it includes or is derivative
+* of works licensed under the GNU General Public License or other free or open
+* source software licenses. See COPYRIGHT.php for copyright notices and
+* details.
+*/
+ol.list {}
+ol.list li {}
+ol.list li h4 {}
+p {}
+ul li a.u2:focus, p a.u2:active {}
+p.counter {
+margin:10px 0;
+padding:5px;
+}
+p.buttonheading {
+text-align:right;
+}
+.buttonheading img {
+border:0;
+}
+p.buttonheading a:link, p.buttonheading a:visited {}
+.leading p.buttonheading a:link, .leading p.buttonheading a:visited {}
+p.buttonheading a:hover {}
+p.buttonheading a:active, p.buttonheading a:focus {}
+em {
+font-weight:bold;
+}
+/* ***************************************************************************************************** */
+/* MAIN STYLES */
+.leading_separator {
+display:block;
+height:10px;
+margin:0;
+}
+#main .leading h2, #main2 .leading h2 {}
+#main h2 a, #main2 h2 a {
+text-decoration:none;
+}
+#main .leading .readon, #main2 .leading .readon {}
+#main .leading .small, #main .leading .modifydate, #main2 .leading .small, #main2 .leading .modifydate {}
+.article_column h2 {}
+.article_row .column1 h2, .article_row .column2 h2 {}
+.article_row p.iteminfo {}
+#main h3, #main2 h3 {}
+#main .blog_more h2, #main2 .blog_more h2 {}
+#main .blog_more li a, #main2 .blog_more li a {}
+#main .blog_more li, #main2 .blog_more li {}
+#main .blog_more ul li a, #main2 .blog_more ul li a {}
+#main .blog_more ul li a:hover, #main2 .blog_more ul li a:hover {}
+#main .blog_more ul li a:active, #main2 .blog_more ul li a:active, #main .blog_more ul li a:focus, #main2 .blog_more ul li a:focus {}
+#main .blog_more ul, #main2 .blog_more ul {}
+#main .blog_more, #main2 .blog_more {}
+#main a.readon, #main2 a.readon {}
+#main a.readon:hover, #main2 a.readon:hover, #main a.readon:active, #main2 a.readon:active, #main a.readon:focus, #main2 a.readon:focus{}
+#main a:link, #main2 a:link, #main a:visited, #main2 a:visited {}
+#main a:hover, #main2 a:hover, #main a:active, #main2 a:active, #main a:focus, #main2 a:focus {}
+#main h1, #main2 h1 {}
+#main h2, #main2 h2 {}
+#main ul li, #main2 ul li {}
+#main ul, #main2 ul {}
+#main ul, #main ol {}
+.small {
+border:solid 0;
+font-size:0.85em;
+margin:0 0 20px;
+}
+.contentdescription {
+padding:10px 0;
+overflow:hidden;
+}
+.image_left {
+float:left;
+margin:0 10px 10px 0;
+}
+.image_right {
+float:right;
+margin:0 0 10px 10px;
+}
+.wrap_image {
+clear:left;
+}
+.createdate {
+display:block;
+font-size:0.85em;
+}
+.createdby {
+display:block;
+font-size:0.85em;
+padding:0 0 0 2px;
+}
+.modifydate {
+display:block;
+font-size:0.85em;
+padding:0;
+}
+span.content_rating, .leading span.content_rating {
+margin:10px 0 0;
+display:block;
+}
+.content_vote {
+margin:0 0 10px;
+display:block;
+}
+.content_vote input {
+margin:0 5px;
+}
+.content_vote .button {
+margin:20px 10px 0 0;
+padding:0 0 0 30px;
+cursor:pointer;
+}
+.article_body {}
+.article_readmore { vertical-align: baseline; }
+/* ***************************************************************************************************** */
+/* PAGINATION */
+#main2 .pagination, #main .pagination {}
+ul.pagination {}
+ul.pagination li {}
+ul.pagination li a {}
+/* ***************************************************************************************************** */
+/* LOGIN COMPONENT */
+form.limit {}
+form.login {}
+form.login .inputbox:focus {}
+form.login p {}
+form.login .button {}
+form.login fieldset {}
+form.login input {}
+form.login input.checkbox {}
+form.login label {}
+form.login label.remember {}
+form.login p {}
+form.login p a {}
+form.login p a:hover, form.login p a:active, form.login p a:focus {}
+form.lost_password .button, .login_form .button {}
+form.registration input, form.lost_password input, .login_form input {}
+form.registration label, form.lost_password label, .login_form label {}
+/* ***************************************************************************************************** */
+/* SEARCH COMPONENT */
+form.search_result, form.registration, form.lost_password, .login_form {
+position:relative;
+}
+.search_result .button, form.registration .button {
+border:0;
+cursor:pointer;
+}
+.registration fieldset p {
+margin:10px 0;
+}
+.registration div, .login_form div, .lost_password div {
+margin:5px 0;
+}
+.searchintro {
+font-weight:normal;
+margin:0 0 20px;
+}
+.searchintro img {
+display:inline;
+border:0px
+}
+.display {
+margin:20px 0 0;
+text-align:right;
+}
+.filter {
+margin:10px 0 0;
+}
+.inputbox:focus {}
+.highlight {
+font-weight:bold;
+}
+fieldset.word, fieldset.only {}
+.only {
+border:solid 0;
+margin:10px 0 0 10px;
+padding:5px 10px;
+line-height:1.3em;
+}
+.word {
+padding:10px 10px 10px 0;
+}
+.word input {}
+.phrase {
+margin:10px 10px 10px 0;
+padding:10px;
+width:60%;
+float:left;
+}
+/* ***************************************************************************************************** */
+/* SELECTS */
+.phrase .inputbox {
+display:block;
+margin-top:10px;
+}
+.phrase .inputbox option {}
+.phrase .inputbox option a:hover {}
+.search_result legend {}
+/* ***************************************************************************************************** */
+/* CONTACTS */
+div.contact {
+margin:10px 0;
+}
+address {
+font-style:normal;
+margin:10px 0;
+}
+address p {
+line-height:1em;
+}
+.contact label {
+float:left;
+font-weight:bold;
+width:14em;
+margin:10px 0 0;
+}
+span.marker {
+margin:0 10px 0 0;
+}
+.contact_email_checkbox label {
+float:none !important;
+}
+.contact label.copy {
+width:90%;
+padding:0 0 0 10px;
+}
+.contact form {
+padding:20px;
+margin:10px 0;
+}
+.contact input {
+padding:2px 2px 0;
+margin:10px 0 0;
+}
+.contact .button {}
+label.textarea {
+float:none !important;
+margin:10px 0;
+display:block;
+width:100%;
+}
+#contact_text {
+width:80%;
+height:150px;
+}
+.contact input.invalid, .contact textarea.invalid {
+border:solid 2px red;
+}
+.contact label.invalid {
+color:red;
+}
+/* ***************************************************************************************************** */
+/* TABLES */
+table.newsfeed {}
+table.newsfeeds td, table.weblinks td, table.category td {
+padding:5px;
+}
+table.newsfeeds th, table.weblinks th, table.category th {
+padding:5px;
+}
+table.newsfeeds, table.weblinks, table.category {
+font-size:1em;
+margin:20px 0;
+}
+/* ***************************************************************************************************** */
+/* CATEGORY TABLE */
+#count {
+width:10%;
+}
+#tableOrdering {
+width:70%;
+}
+#author {
+width:20%;
+}
+/* ***************************************************************************************************** */
+/* POLL COMPONENT / MODULE */
+dl.poll {}
+dl.poll dt {
+padding:10px 0;
+}
+dl.poll dd {
+padding:10px 0;
+font-weight:bold;
+}
+.polls_color_1 {}
+.polls_color_2 {}
+.polls_color_3 {}
+.polls_color_4 {}
+.polls_color_5 {}
+.polls_color_6 {}
+.poll {
+padding:0 0 20px 0;
+}
+form.poll fieldset {
+border:0 solid #000;
+margin:0 0 10px;
+padding:0;
+}
+.poll .polls_color_1, .poll .polls_color_2, .poll .polls_color_3, .poll .polls_color_4, .poll .polls_color_5 {
+position:relative;
+}
+.poll h3 {
+margin:20px 0;
+}
+.poll .td_2 {
+width:100px;
+}
+.poll .td_3 {
+width:300px;
+}
+.poll form {
+margin:20px 0;
+}
+.poll table {
+font-size:1em;
+width:auto;
+border:solid 0;
+position:relative;
+}
+.poll table .td_1 {
+width:30px;
+}
+.poll table caption {
+font-size:1em;
+font-weight:bold;
+margin:10px 0;
+text-align:left;
+}
+.poll table td,
+.poll table th {
+padding:10px;
+}
+.poll td.line {
+width:300px;
+}
+.poll th {
+text-align:left;
+}
+.polls-options,
+.polls-options li{
+margin:0;
+padding:0;
+list-style:none;
+}
+/* ***************************************************************************************************** */
+/* SYNDICATE MODULE */
+p.syndicate {
+float:left;
+display:block;
+text-align:left;
+}
+/* ***************************************************************************************************** */
+/* CONTACT LIST */
+table.category{
+width:100%;
+font-size:12px;
+}
+table.category tr{
+text-align:left;
+}
+/* ***************************************************************************************************** */
+/* CONTACT FORM ERROR MESSAGES */
+p.error {
+color:#93246F;
+background:#F2E3ED;
+border-top:3px solid #93246F;
+border-bottom:3px solid #93246F;
+padding:10px;
+}
+body.contentpane {
+background:#fff;
+width:auto;
+margin:10px;
+line-height:1.4em;
+text-align:left;
+}
+.tool-tip {
+font-size:0.8em;
+}
+.tool-title {
+font-weight:bold;
+}
+/* ***************************************************************************************************** */
+/* FORM VALIDATION */
+.invalid {
+border-color:red !important;
+}
+label.invalid {
+color:red;
+}
+/* ***************************************************************************************************** */
+/* FRONTEND EDITOR */
+.contentpaneopen_edit {
+float: left;
+}
+.contentpaneopen_edit img {
+border:0
+}
+form.editor legend {
+font-size:1.2em;
+font-weight:bold;
+padding:2px;
+}
+form.editor fieldset {
+border:solid 1px #ccc;
+padding:20px;
+margin:10px 0;
+font-size:12px;
+}
+form.editor .publishing label {
+float:left;
+width:14em;
+font-weight:bold;
+}
+form.editor .publishing div {
+margin:5px 0;
+}
+form.editor .publishing .radio label {
+float:none;
+width:14em;
+}
+form.editor .publishing .radio label span {
+float:left;
+width:14em;
+}
+form.editor fieldset.metadata label {
+float:none !important;
+display:block;
+font-weight:bold;
+}
+.save {
+text-align:left;
+padding:10px 0;
+}
+/* ***************************************************************************************************** */
+/* USER FORM */
+form.user {
+font-size:12px;
+line-height:1.5em;
+padding:20px 20px 10px 20px;
+margin:0 0 20px 0;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-khtml-border-radius:5px;
+}
+form.user label {
+display:block;
+padding:0 20px 0 0;
+}
+form.user label {
+display:block;
+}
+form.user .user_name{
+display:block;
+clear:both;
+margin:0 0 10px 0;
+}
+form.user .name{
+display:block;
+clear:both;
+margin:10px 0;
+}
+form.user .email{
+display:block;
+clear:both;
+}
+/* ***************************************************************************************************** */
+/* TABLE OF CONTENTS VIEW */
+table.contenttoc {
+padding:10px;
+margin:10px;
+}
+.pagenavcounter {
+font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+/*
+	Generic styles
+*/
+span.jicons-icons {}
+
+/*
+	com_contact
+*/
+div.categories-list ul {} /* Joomla 1.6 only */
+div.categories-list ul li {} /* Joomla 1.6 only */
+table.category th, .sectiontableheader {}
+table.category td, .sectiontableentry, .sectiontableentry0, .sectiontableentry1, .sectiontableentry2 {}
+.contact-form .inputbox { margin: 10px 0 0 0; }
+.contact-misc p { display: inline; }
+
+/*
+	com_content
+*/
+ul#archive-list { list-style: none; }

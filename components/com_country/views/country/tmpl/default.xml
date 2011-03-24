@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="country Layout">
+		<message>
+			<![CDATA[country Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>country Layout</name>
+		<description>country Layout</description>
+		<params>
+		</params>
+	</state>
+</metadata>

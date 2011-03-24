@@ -1,0 +1,46 @@
+<root>
+	<params group="EASYTABLE_PREFS">
+		<param name="show_description" type="list" default="" label="SHOW_DESCRIPTION" description="THIS_WILL_SHOW_DESCRIPTION_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_search" type="list" default="" label="SHOW_TABLE_SEARCH" description="THIS_WILL_SHOW_THE_SEARCH_FUNCTION_FOR_THIS_TABLE_WHEN_THE_OPTION_IS_SET_TO__YES__">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_with_pagination" type="list" default="" label="SHOW_WITH_PAGINATION" description="IF_SET_DESC">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_pagination_header" type="list" default="" label="SHOW_PAGES_DESC" description="PAGINATION_CONTROLS_DESC">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_pagination_footer" type="list" default="" label="SHOW_TABLE_PAGINATION_FOOTER" description="THIS_WILL_DESC">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_created_date" label="SHOW_CREATION_DATE" type="list" default="" description="CREATION_DATE_WILL_BE_DISPLAYED_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_modified_date" label="SHOW_MODIFIED_DATE" type="list" default="" description="MODIFICATION_DATE_WILL_BE_DISPLAYED_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option selected="selected" value="">Use Global</option>
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="modification_date_label" label="MODIFICATION_DATE_LABEL" type="text" default="" description="MODIFICATION_DATE_LABEL_DESC">
+		</param>
+	</params>
+	<params group="LINKED_TABLE" addpath="/administrator/components/com_easytable/elements">
+		<param name="id" type="easytable" default="" label="SELECT_TABLE" description="THE_TABLE_TO_LINK_TO_"/>
+		<param name="key_field" type="text" default="" label="KEY_FIELD" description="THE_ID_OF_THE_FIELD_IN_THIS_TABLE_USED_TO_SELECT_RECORDS_IN_THE_LINKED_TABLE_"/>
+		<param name="linked_key_field" type="text" default="" label="LINKED_KEY_FIELD" description="THE_ID_OF_THE_FIELD_FROM_THE_LINKED_TABLE_TO_MATCH_TO_THE_KEY_FIELD_IN_THIS_TABLE_"/>
+	</params>
+</root>

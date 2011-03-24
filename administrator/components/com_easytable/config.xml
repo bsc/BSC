@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<params>
+	<url addpath="/administrator/components/com_easytable/elements">
+		<param name="id" type="easytable" scope="com_easytable" default="0" label="EASYTABLE_PREFERENCES" description="GLOBAL_PREFERENCES_FOR_EASYTABLE_COMPONENT_" />
+	</url>
+		<param name="show_description" type="radio" default="1" label="SHOW_TABLE_DESCRIPTION" description="THIS_WILL_SHOW_THE_TABLES_DESCRIPTION_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_search" type="radio" default="1" label="SHOW_TABLE_SEARCH" description="THIS_WILL_SHOW_THE_SEARCH_FUNCTION_FOR_TABLES_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_with_pagination" type="radio" default="1" label="SHOW_WITH_PAGINATION" description="THIS_WILL_SHOW_THE_PAGINATION_CONTROLS_FOR_TABLES_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_pagination_header" type="radio" default="1" label="SHOW_PAGES_DESC" description="PAGINATION_CONTROLS_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_pagination_footer" type="radio" default="1" label="SHOW_TABLE_PAGINATION_FOOTER" description="THIS_WILL_DESC">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_created_date" type="radio" default="0" label="SHOW_CREATION_DATE" description="THE_TABLES_CREATION_DATE_WILL_BE_DISPLAYED_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="show_modified_date" type="radio" default="0" label="SHOW_MODIFIED_DATE" description="THE_TABLES_MODIFICATION_DATE_WILL_BE_DISPLAYED_WHEN_THIS_OPTION_IS_SET_TO__YES__">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="modification_date_label" label="MODIFICATION_DATE_LABEL" type="text" default="" description="MODIFICATION_DATE_LABEL_DESC">
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="uninstall_type" type="radio" default="0" label="UNINSTALL_TYPE" description="WHEN_UNINSTALLING">
+			<option value="1">COMPLETE__COMPONENT___DATA_TABLES_</option>
+			<option value="0">PARTIAL___COMPONENT_ONLY___LEAVE_DATA_ALONE_</option>
+		</param>
+		</params>
+</root>

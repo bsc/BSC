@@ -1,0 +1,79 @@
+<config>
+	<params addpath="/administrator/components/com_artofuser/helpers/elements">
+		<param
+			type="help"
+			style="heading"
+			default="COM_ARTOFUSER_PARAMS_BASIC_OPTIONS"
+			/>
+
+		<param
+			name="mail_pass"
+			type="radio"
+			label="COM_ARTOFUSER_PARAM_MAIL_PASS_LABEL"
+			description="COM_ARTOFUSER_PARAM_MAIL_PASS_DESC"
+			default="1">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+
+		<param
+			name="block_req_cat"
+			type="radio"
+			label="COM_ARTOFUSER_PARAM_BLOCK_REQ_CAT_LABEL"
+			description="COM_ARTOFUSER_PARAM_BLOCK_REQ_CAT_DESC"
+			default="0">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+
+		<param
+			name="block_req_note"
+			type="radio"
+			label="COM_ARTOFUSER_PARAM_BLOCK_REQ_NOTE_LABEL"
+			description="COM_ARTOFUSER_PARAM_BLOCK_REQ_NOTE_DESC"
+			default="0">
+			<option value="1">YES</option>
+			<option value="0">NO</option>
+		</param>
+
+		<param
+			type="help"
+			style="heading"
+			default="COM_ARTOFUSER_PARAMS_PERMISSION_OPTIONS"
+			/>
+
+		<param
+			name="core_manage"
+			type="usergroup"
+			label="COM_ARTOFUSER_PARAM_CORE_MANAGE_LABEL"
+			description="COM_ARTOFUSER_PARAM_CORE_MANAGE_DESC"
+			multiple="true"
+			size="6"
+			default="25"
+			class="inputbox"
+			menu="hide" />
+
+		<param
+			name="artofuser_edit_note"
+			type="usergroup"
+			label="COM_ARTOFUSER_PARAM_CORE_EDIT_NOTES_LABEL"
+			description="COM_ARTOFUSER_PARAM_CORE_EDIT_NOTES_DESC"
+			multiple="true"
+			size="6"
+			default="25"
+			class="inputbox"
+			menu="hide" />
+
+		<param
+			name="artofuser_delete_note"
+			type="usergroup"
+			label="COM_ARTOFUSER_PARAM_CORE_DELETE_NOTES_LABEL"
+			description="COM_ARTOFUSER_PARAM_CORE_DELETE_NOTES_DESC"
+			multiple="true"
+			size="6"
+			default="25"
+			class="inputbox"
+			menu="hide" />
+
+	</params>
+</config>

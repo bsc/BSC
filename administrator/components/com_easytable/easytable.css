@@ -1,0 +1,16 @@
+.icon-48-easytables {
+    background: url(assets/images/EasyTableIcon.png) no-repeat left;
+}
+
+.info-tip {
+	width:250px;
+	position:absolute;
+	background-color:#FFFFCC;
+	display:none;
+	padding:5px;
+	text-align:left;
+	border-color:#DDDDCC;
+	border-width:2px;
+	border-right-style:solid;
+	border-bottom-style:solid;
+}

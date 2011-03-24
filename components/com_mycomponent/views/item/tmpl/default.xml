@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+<layout title="MYCOMPONENT STANDARD ITEM LAYOUT">
+<message>
+MYCOMPONENT STANDARD ITEM LAYOUT DESC
+</message>
+</layout>
+<state>
+<name>MYCOMPONENT STANDARD ITEM LAYOUT</name>
+<description>MYCOMPONENT STANDARD ITEM LAYOUT DESC</description>
+<url addpath="/administrator/components/com_mycomponent/elements">
+<param name="id" type="item" default="" label="Select Item" description="PARAMITEMSELECT" />
+</url>
+<params>
+<param name="show_mycomponent_list" type="radio" default="0" label="DROPDOWN" description="PARAMDROPDOWN">
+<option value="0">Hide</option>
+<option value="1">Show</option>
+</param>
+<param name="show_category_crumb" type="radio" default="0" label="SHOWCATEGORYINBREADCRUMBS" description="SHOWCATEGORYINBREADCRUMBSDESC">
+<option value="0">Hide</option>
+<option value="1">Show</option>
+</param>
+</params>
+</state>
+</metadata>

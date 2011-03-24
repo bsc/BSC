@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- $Id: user.xml 531 2011-01-13 11:59:13Z eddieajau $ -->
+<form>
+	<fields>
+		<field
+			name="id"
+			type="hidden"
+			class="readonly"
+			label="COM_ARTOFUSER_FIELD_ID_LABEL"
+			size="10"
+			default="0"
+			required="true"
+			readonly="true" />
+
+		<field
+			name="name"
+			type="text"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_USER_NAME_LABEL"
+			size="30"
+			required="true"
+			description="COM_ARTOFUSER_FIELD_USER_NAME_DESC" />
+
+		<field
+			name="username"
+			type="text"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_USER_USERNAME_LABEL"
+			size="30"
+			required="true"
+			description="COM_ARTOFUSER_FIELD_USER_USERNAME_DESC" />
+
+		<field
+			name="email"
+			type="text"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_USER_EMAIL_LABEL"
+			size="30"
+			required="true"
+			description="COM_ARTOFUSER_FIELD_USER_EMAIL_DESC" />
+
+		<field
+			name="password"
+			type="password"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_USER_PASSWORD1_LABEL"
+			size="30"
+			autocomplete="off"
+			filter="raw"
+			description="COM_ARTOFUSER_FIELD_USER_PASSWORD1_DESC" />
+
+		<field
+			name="password2"
+			type="password"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_USER_PASSWORD2_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_PASSWORD2_DESC"
+			size="30"
+			autocomplete="off"
+			filter="raw"
+			validate="equals"
+			field="password" />
+
+		<field
+			name="block"
+			type="radio"
+			label="COM_ARTOFUSER_FIELD_USER_BLOCK_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_BLOCK_DESC"
+			default="0"
+		>
+			<option
+				value="0"
+			>No</option>
+			<option
+				value="1"
+			>Yes</option>
+		</field>
+
+		<field
+			name="block_catid"
+			type="category"
+			class="inputbox"
+			size="1"
+			section="com_artofuser_blocked"
+			label="COM_ARTOFUSER_FIELD_BLOCK_CATID_LABEL">
+			<option value="">JLIB_FORM_NO_CATEGORY</option>
+		</field>
+
+		<field
+			name="note"
+			type="textarea"
+			class="inputbox"
+			label="COM_ARTOFUSER_FIELD_NOTE_LABEL"
+			description="COM_ARTOFUSER_FIELD_NOTE_DESC"
+			filter="safehtml"
+			rows="3"
+			cols="30"
+			/>
+
+		<field
+			name="sendEmail"
+			type="radio"
+			label="COM_ARTOFUSER_FIELD_USER_SENDEMAIL_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_SENDEMAIL_DESC"
+		>
+			<option
+				value="0"
+			>No</option>
+			<option
+				value="1"
+			>Yes</option>
+		</field>
+
+		<field
+			name="gid"
+			type="usergroup2"
+			label="COM_ARTOFUSER_FIELD_USER_GID_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_GID_DESC" />
+
+		<field
+			name="groups"
+			type="groups"
+			label="COM_ARTOFUSER_FIELD_USER_GROUPS_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_GROUPS_DESC" />
+
+
+		<field
+			name="registerDate"
+			type="hidden"
+			filter="unset" />
+
+		<field
+			name="lastvisitDate"
+			type="hidden"
+			filter="unset" />
+
+		<field
+			name="activation"
+			type="hidden"
+			filter="unset" />
+	</fields>
+
+	<fields
+		group="params"
+		array="true"
+		label="COM_ARTOFUSER_FIELD_PARAMS_LABEL"
+	>
+
+		<field
+			name="admin_language"
+			type="language"
+			client="administrator"
+			default=""
+			label="COM_ARTOFUSER_FIELD_USER_ADMIN_LANGUAGE_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_ADMIN_LANGUAGE_DESC">
+			<option value="">COM_ARTOFUSER_OPTION_SELECT_LANGUAGE</option>
+		</field>
+
+		<field
+			name="language"
+			type="language"
+			client="site"
+			default=""
+			label="COM_ARTOFUSER_FIELD_USER_LANGUAGE_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_LANGUAGE_DESC">
+			<option value="">COM_ARTOFUSER_OPTION_SELECT_LANGUAGE</option>
+		</field>
+
+		<field
+			name="editor"
+			type="editors"
+			default=""
+			label="COM_ARTOFUSER_FIELD_USER_EDITOR_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_EDITOR_DESC">
+			<option value="">COM_ARTOFUSER_OPTION_SELECT_EDITOR</option>
+		</field>
+
+		<field
+			name="helpsite"
+			type="helpsite"
+			default=""
+			label="COM_ARTOFUSER_FIELD_USER_HELPSITE_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_HELPSITE_DESC">
+			<option value="">COM_ARTOFUSER_OPTION_SELECT_HELPSITE</option>
+		</field>
+
+		<field
+			name="timezone"
+			type="timezone"
+			default=""
+			label="COM_ARTOFUSER_FIELD_USER_TIMEZONE_LABEL"
+			description="COM_ARTOFUSER_FIELD_USER_TIMEZONE_DESC">
+			<option value="">COM_ARTOFUSER_OPTION_SELECT_TIMEZONE</option>
+		</field>
+	</fields>
+
+</form>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="EasyTables List Layout">
+		<message>
+		<![CDATA[SHOWS_A_LIST_OF_PUBLISHED_TABLES_]]>
+		</message>
+	</layout>
+	<state>
+		<name>EasyTables</name>
+		<description>SHOW_S_A_LISTING_OF_ALL_PUBLISHED_TABLES_</description>
+		<url addpath="/administrator/components/com_easytable/elements">
+		<param name="table_list_sort_order" type="list" default="" label="SORT_ORDER" description="SETS_THE_ORDER_IN_WHICH_PUBLISHED_TABLES_APPEAR_IN_THE_TABLE_LIST_">
+			<option selected="selected" value="0">NAME_ASCENDING</option>
+			<option value="1">NAME_DESCENDING</option>
+			<option value="2">CREATION_DATE_ASCENDING</option>
+			<option value="3">CREATION_DATE_DESCENDING</option>
+			<option value="4">MODIFICATION_DATE_ASCENDING</option>
+			<option value="5">MODIFICATION_DATE_DESCENDING</option>
+		</param>
+		</url>
+	</state>
+</metadata>

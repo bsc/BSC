@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+<name>nreview</name>
+<creationDate>3/23/2011</creationDate>
+<author>Insert your Name</author>
+<authorEmail>Insert your Email</authorEmail>
+<authorUrl>http://www.mmleoni.net/joomla-component-builder</authorUrl>
+<copyright>Copyright Info</copyright>
+<license>GNU/GPL v2</license>
+<!--  The version string is recorded in the components table -->
+<version>1.00</version>
+<!-- The description is optional and defaults to the name -->
+<description>Component made by Marco's Component Maker for Joomla! 1.5 by http://www.mmleoni.net/joomla-component-builder</description>
+<files folder="site">
+<filename>index.html</filename>
+<filename>nreview.php</filename>
+<filename>controller.php</filename>
+<filename>views/index.html</filename>
+<filename>models/index.html</filename>
+<filename>views/reviews/index.html</filename>
+<filename>views/reviews/view.html.php</filename>
+<filename>views/reviews/metadata.xml</filename>
+<filename>views/reviews/tmpl/default.xml</filename>
+<filename>views/reviews/tmpl/default.php</filename>
+<filename>views/reviews/tmpl/index.html</filename>
+<filename>models/reviews.php</filename>
+<filename>views/reviewslist/index.html</filename>
+<filename>views/reviewslist/view.html.php</filename>
+<filename>views/reviewslist/metadata.xml</filename>
+<filename>views/reviewslist/tmpl/default.xml</filename>
+<filename>views/reviewslist/tmpl/default.php</filename>
+<filename>views/reviewslist/tmpl/index.html</filename>
+<filename>models/reviewslist.php</filename>
+
+</files>
+<install>
+<sql>
+<file charset="utf8" driver="mysql">install.sql</file>
+</sql>
+</install>
+<uninstall>
+<sql>
+<file charset="utf8" driver="mysql">uninstall.sql</file>
+</sql>
+</uninstall>
+<languages>
+<language tag="en-GB">languages/en-GB.com_nreview.ini</language>
+<language tag="it-IT">languages/it-IT.com_nreview.ini</language>
+<language tag="en-US">languages/en-US.com_nreview.ini</language>
+
+</languages>
+<administration>
+<menu>nreview</menu>
+<!-- Administration Main File Copy Section -->
+<files folder="admin">
+<!-- Site Main File Copy Section -->
+<filename>index.html</filename>
+<filename>nreview.php</filename>
+<filename>controller.php</filename>
+<filename>config.xml</filename>
+<filename>controllers/index.html</filename>
+<filename>models/index.html</filename>
+<filename>tables/index.html</filename>
+<filename>views/index.html</filename>
+<filename>views/reviews/index.html</filename>
+<filename>views/reviews/view.html.php</filename>
+<filename>views/reviews/tmpl/default.php</filename>
+<filename>views/reviews/tmpl/index.html</filename>
+<filename>models/reviews.php</filename>
+<filename>controllers/reviews.php</filename>
+<filename>tables/reviews.php</filename>
+<filename>views/reviewslist/index.html</filename>
+<filename>views/reviewslist/view.html.php</filename>
+<filename>views/reviewslist/tmpl/default.php</filename>
+<filename>views/reviewslist/tmpl/index.html</filename>
+<filename>models/reviewslist.php</filename>
+<filename>controllers/reviewslist.php</filename>
+<filename>install.sql</filename>
+<filename>uninstall.sql</filename>
+
+</files>
+<languages>
+<language tag="en-GB">languages/en-GB.com_nreview.ini</language>
+<language tag="it-IT">languages/it-IT.com_nreview.ini</language>
+<language tag="en-US">languages/en-US.com_nreview.ini</language>
+
+</languages>
+</administration>
+</install>

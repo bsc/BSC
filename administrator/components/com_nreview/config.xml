@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- see http://docs.joomla.org/Standard_parameter_types -->
+<config>
+	<params>
+	
+		<param name="parm_text" type="text" default="parm_text" label="Text param" description="Text param example" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="param_list" type="list" default="value1" label="List param" description="List param example">
+			<option value="value1">value 1</option>
+			<option value="value2">value 2</option>
+			<option value="value3">value 3</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="param_radio" type="radio" default="value1" label="Radio param" description="Radio Param Example">
+			<option value="value1">value 1</option>
+			<option value="value2">value 2</option>
+			<option value="value3">value 3</option>
+		</param>
+
+	</params>
+
+</config>

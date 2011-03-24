@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document Copyright © ********************/
+
+/* ***************************************************************************************************** */
+/* DEFAULT HTML *****************************/
+body{
+direction:rtl;
+}
+/* ***************************************************************************************************** */
+/* TEMPLATE SPECIFIC CSS CODE */
+#topmenu{
+float:right;
+text-align:right;
+}
+#syndicate{
+float:left;
+text-align:left;
+}
+#logocontainer{
+float:right;
+}
+#banner{
+float:left;
+text-align:left;
+}
+#search{
+float:left;
+text-align:left;
+}
+#mainmenu ul{
+float:right;
+}
+#mainmenu ul li{
+float:right;
+}
+#copy{
+float:right;
+text-align:right;
+}
+#link{
+float:left;
+text-align:left;
+}
+.designer a{
+float:right;
+text-decoration:none;
+margin-left:10px;
+}
+#link{
+float:right;
+text-align:right;
+}
+#copy{
+float:left;
+text-align:left;
+}

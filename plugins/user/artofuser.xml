@@ -1,0 +1,18 @@
+<install
+	version="1.5.20"
+	type="plugin"
+	group="user"
+	method="upgrade">
+	<name>User - Artof User</name>
+	<version>1.1.1</version>
+	<creationDate>2011-01-18</creationDate>
+	<author>Andrew Eddie</author>
+	<authorurl>http://www.theartofjoomla.com</authorurl>
+	<copyright>Copyright 2005 - 2011 New Life in IT Pty Ltd. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<description>PLG_USER_ARTOFCONTENT_XML_DESC</description>
+
+	<files>
+		<filename plugin="artofuser">artofuser.php</filename>
+	</files>
+</install>

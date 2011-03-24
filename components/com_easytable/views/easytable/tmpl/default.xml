@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="EASYTABLE_LAYOUT">
+		<message>
+		<![CDATA[SHOWS_A_SPECIFIC_TABLE_]]>
+		</message>
+	</layout>
+	<state>
+		<name>EASYTABLE_DISPLAY</name>
+		<description>SHOWS_THE_SELECTED_TABLE_</description>
+		<url addpath="/administrator/components/com_easytable/elements">
+			<param name="id" type="easytable" default="" label="SELECT_TABLE" description="THE_TABLE_TO_LINK_TO_" />
+		</url>
+	</state>
+</metadata>

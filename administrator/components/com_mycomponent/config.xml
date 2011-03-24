@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+		<param name="show_text" type="radio" default="1" label="text" description="SHOWTEXT">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		
+		<param name="show_picture" type="radio" default="1" label="picture" description="SHOWPICTURE">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		
+		<param name="show_date" type="radio" default="1" label="date" description="SHOWDATE">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		
+		<param name="show_author" type="radio" default="1" label="Author Names" description="TIPIFSETTOSHOWAUTHOR">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_create_date" type="radio" default="1" label="Created Date and Time" description="TIPIFSETTOSHOWDATETIMECREATED">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_modify_date" type="radio" default="1" label="Modified Date and Time" description="TIPIFSETTOSHOWDATETIMEMODIFIED">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_hits" type="radio" default="1" label="Hits" description="TIPIFSETTOSHOWHITS">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+	</params>
+</config>
