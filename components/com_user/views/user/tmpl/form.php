@@ -16,7 +16,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 	</div>
 <?php endif; ?>
 <table cellpadding="5" cellspacing="0" border="0" width="100%">
-<tr>
+<!-- <tr>
 	<td>
 		<label for="username">
 			<?php echo JText::_( 'User Name' ); ?>:
@@ -25,7 +25,7 @@ defined('_JEXEC') or die('Restricted access'); ?>
 	<td>
 		<span><?php echo $this->user->get('username');?></span>
 	</td>
-</tr>
+</tr> -->
 <tr>
 	<td width="120">
 		<label for="name">

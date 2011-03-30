@@ -503,7 +503,7 @@ class UserController extends JController
 		$subject 	= html_entity_decode($subject, ENT_QUOTES);
 
 		if ( $useractivation == 1 ){
-			$message = sprintf ( JText::_( 'SEND_MSG_ACTIVATE' ), $name, $sitename, $siteURL."index.php?option=com_user&task=activate&activation=".$user->get('activation'), $siteURL, $username, $password);
+			$message = sprintf ( JText::_( 'SEND_MSG_ACTIVATE' ), $name, $sitename, $siteURL."index.php?option=com_user&task=activate&activation=".$user->get('activation'), $siteURL, $email, $password);
 		} else {
 			$message = sprintf ( JText::_( 'SEND_MSG' ), $name, $sitename, $siteURL);
 		}
@@ -534,7 +534,7 @@ class UserController extends JController
 		{
 			if ($row->sendEmail)
 			{
-				$message2 = sprintf ( JText::_( 'SEND_MSG_ADMIN' ), $row->name, $sitename, $name, $email, $username);
+				$message2 = sprintf ( JText::_( 'SEND_MSG_ADMIN' ), $row->name, $sitename, $name, $email);
 				$message2 = html_entity_decode($message2, ENT_QUOTES);
 				JUtility::sendMail($mailfrom, $fromname, $row->email, $subject2, $message2);
 			}

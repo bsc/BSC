@@ -1,4 +1,5 @@
 <?php
+
 class JConfig {
 /* Site Settings */
 var $offline = '0';
